@@ -35,6 +35,22 @@ nav .logo {
 nav .cart {
     position: absolute;
     right: 0;
+
+    /* background-color: #098; */
+}
+.cart-num {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    /* border-radius: 50%; */
+    clip-path: circle();
+    position: absolute;
+    top: -12px;
+    right: -12px;
 }
 nav a {
     color: #000;
