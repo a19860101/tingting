@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SEGOE UI";
+}
+
+li {
+    list-style:none;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+nav .row{
+    justify-content: center;
+    align-items: center;
+}
+nav .logo {
+    width: 200px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+nav .cart {
+    position: absolute;
+    right: 0;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+nav .menu a {
+    padding: 0 10px;
+}
