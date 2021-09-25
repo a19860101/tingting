@@ -101,3 +101,31 @@ header::before {
     font-size: 14px;
     letter-spacing: 2px;
 }
+
+/* about */
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-title {
+    width: 80%;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+.about-item {
+    flex:0 0 calc(100% / 3);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-item .about-icon {
+    margin-bottom: 30px;
+}
+.about-item h3 {
+    margin-bottom: 30px;
+}
+.about-item p {
+    margin-bottom: 30px;
+}
