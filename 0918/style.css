@@ -18,6 +18,10 @@ li {
     display: flex;
     flex-wrap: wrap;
 }
+img {
+    width: 100%;
+    vertical-align: top;
+}
 nav {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -128,4 +132,30 @@ header::before {
 }
 .about-item p {
     margin-bottom: 30px;
+}
+/* story */
+#story {
+    height: 600px;
+    align-items: center;
+    background-color: #fffbe7;
+
+}
+.story-cover {
+    flex:0 0 45%;
+    height: 600px;
+    background-color: #ccc;
+}
+.story-body {
+    flex: 0 0 55%;
+    padding: 100px;
+}
+.story-body h2,
+.story-body h3,
+.story-body p {
+    margin-bottom: 20px;
+}
+.story-cover img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
