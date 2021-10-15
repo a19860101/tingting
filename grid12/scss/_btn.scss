@@ -1,0 +1,7 @@
+@each $clr in $colors {
+    .btn-#{$clr}{
+        background-color: $clr;
+        text-decoration: none;
+        padding: 8px 20px;
+    }
+}

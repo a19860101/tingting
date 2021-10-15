@@ -5,6 +5,11 @@
     font-family: "SEGOE UI";
 }
 
+h2 {
+    font-family: 'Ephesis';
+    font-size: 36px;
+}
+
 li {
     list-style:none;
 }
